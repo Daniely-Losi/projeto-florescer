@@ -122,3 +122,11 @@ main::before {
 .confirmacao a:hover {
   background-color: rgb(48, 206, 48);
 }
+
+#diagonal {
+  transform: rotate(-45deg);
+}
+
+.qrcode {
+  width: 150px;
+}
