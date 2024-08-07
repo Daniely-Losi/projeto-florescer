@@ -130,3 +130,7 @@ main::before {
 .qrcode {
   width: 150px;
 }
+
+.ping {
+  width: 0px;
+}
