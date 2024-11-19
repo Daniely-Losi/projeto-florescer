@@ -108,12 +108,12 @@ main::before {
 }
 
 .confirmacao a {
-  color: black;
+  color: white;
   background-color: rgb(83, 245, 83);
   height: 100%;
   width: 50%;
   font-family: Poppins;
-  font-size: 20pt;
+  font-size: 18pt;
   overflow: none;
   text-decoration: none;
   border-radius: 20px;
