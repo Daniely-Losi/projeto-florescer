@@ -22,13 +22,13 @@ export const events: Event[] = [
   },
   {
    id: 4,
-    date: '2025-07-10',
+    date: '2025-07-08',
     time: '19:30',
     format: 'Virtual' 
   },
   {
    id: 5,
-    date: '2025-07-25',
+    date: '2025-07-11',
     time: '08:00',
     format: 'Presencial' 
   },
