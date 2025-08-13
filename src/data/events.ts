@@ -2,45 +2,10 @@ import { Event } from '../types';
 
 // Mock data for events
 export const events: Event[] = [
-  {
-    id: 1,
-    date: '2025-05-30',
-    time: '08:00',
-    format: 'Presencial'
-  },
-  {
-   id: 2,
-    date: '2025-06-10',
-    time: '19:30',
-    format: 'Virtual' 
-  },
-  {
-   id: 3,
-    date: '2025-06-18',
-    time: '08:00',
-    format: 'Presencial' 
-  },
-  {
-   id: 4,
-    date: '2025-07-08',
-    time: '19:30',
-    format: 'Virtual' 
-  },
-  {
-   id: 5,
-    date: '2025-07-11',
-    time: '08:00',
-    format: 'Presencial' 
-  },
-  {
-   id: 6,
-    date: '2025-08-12',
-    time: '19:30',
-    format: 'Virtual' 
-  },
+
   {
    id: 7,
-    date: '2025-08-29',
+    date: '2025-08-22',
     time: '08:00',
     format: 'Presencial' 
   },
