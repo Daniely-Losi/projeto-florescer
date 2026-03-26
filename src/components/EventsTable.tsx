@@ -24,6 +24,9 @@ const EventsTable: React.FC<EventsTableProps> = ({ events }) => {
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
               Formato
             </th>
+            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              Local/Link
+            </th>
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
@@ -56,6 +59,15 @@ const EventsTable: React.FC<EventsTableProps> = ({ events }) => {
                   >
                     {event.format}
                   </span>
+                </td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm">
+                  {event.format === 'Virtual' ? (
+                    <a href={event.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                      Abrir Google Meet
+                    </a>
+                  ) : (
+                    <span className="text-gray-600">{event.location}</span>
+                  )}
                 </td>
               </tr>
             ))
