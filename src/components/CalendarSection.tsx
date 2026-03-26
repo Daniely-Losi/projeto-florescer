@@ -88,7 +88,7 @@ const CalendarSection: React.FC<CalendarSectionProps> = ({ events }) => {
           <p className="text-sm mt-1">
             * Os links para encontros virtuais são enviados no grupo de{' '}
             <a
-              href="https://chat.whatsapp.com/DOSt0ydms6o5hTAceyBXBa"
+              href="https://chat.whatsapp.com/Kq483zHiWwVJwT4yC4ZQN7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 font-semibold"
